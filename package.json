@@ -4,7 +4,7 @@
   "description": "API testing with playwright",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pw:test:api": "playwright test --config=api.config.ts --reporter=html"
   },
   "repository": {
     "type": "git",
