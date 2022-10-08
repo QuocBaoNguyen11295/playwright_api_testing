@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "pw:test:api": "playwright test --config=api.config.ts --reporter=html",
-    "pw:show-report": "playwright show-report"
+    "pw:test:api_list" : "playwright test --config=api.config.ts --reporter=line",
+    "pw:show_report": "playwright show-report",
+    "jenkins-server": "java -jar jenkins.war -httpPort=8080 --enable-future-java"
   },
   "repository": {
     "type": "git",
